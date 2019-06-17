@@ -14,17 +14,17 @@ const Reactjs = () => {
                             <div className="col-12">
                                 <h1 className="react-title">React.js & Redux</h1>
                                 <hr className="title-divider" />
-                                <p className="react-explanation">Using custom Html and CSS to create work.</p>
+                                <p className="react-explanation">Fast and effective single paged applications created using React.js. Enhanced with Redux to improve user experience and interaction.</p>
                             </div>
                         </div>
                         <div className="row react-content">
-                            <div className="col-6">
-                                <a href="#" target="_blank"><img className="profits-pic" src={Profits} alt="Profits logo." /></a>
-                                <div className="profits-link mt-3"><a target="_blank" href="#">profits.netlify.com</a></div>
+                            <div className="col-12 col-md-6">
+                                <a href="profits.netlify.com" target="_blank"><img className="profits-pic" src={Profits} alt="Profits logo." /></a>
+                                <div className="profits-link mt-3"><a target="_blank" href="profits.netlify.com">profits.netlify.com</a></div>
                             </div>
-                            <div className="col-6">
-                                <a href="#" target="_blank"><img className="itrainuwin-pic" src={Itrainuwin} alt="I Train U Win logo." /></a>
-                                <div className="itrainuwin-link mt-3"><a target="_blank" href="#">itrainuwin.com</a></div>
+                            <div className="col-12 col-md-6 mt-md-0 my-5">
+                                <a href="itrainuwin.com" target="_blank"><img className="itrainuwin-pic" src={Itrainuwin} alt="I Train U Win logo." /></a>
+                                <div className="itrainuwin-link mt-3"><a target="_blank" href="itrainuwin.com">itrainuwin.com</a></div>
                             </div>
                         </div>
                     </div>

@@ -25,6 +25,7 @@ code {
 }
 .fa-phone{
   font-size:26px;
+  margin-right:15px;
 }
 .fa-envelope:hover, .fa-phone:hover{
   cursor:pointer;
@@ -51,6 +52,26 @@ code {
   border-bottom: solid 1px #c20f0f;
   padding-bottom:5px;
 }
+.nav-link-item2 span a:hover, .nav-link-item2 span a:active, .nav-link-item2 span a:visited, .nav-link-item2 span a:focus {
+  text-decoration:none;
+  border-bottom: solid 1px #c20f0f;
+  padding-bottom:5px;
+}
+.nav2{
+  display:none;
+}
+.nav-link-item2{
+  font-size:24px;
+  font-weight:200;
+}
+.nav-link-item2 span{
+  margin-right:40px;
+}
+.nav-link-item2 span:last-child{
+  margin-right:0px;
+}
+
+
 
 /* Home */
 
@@ -72,9 +93,8 @@ code {
 .about{
   font-size:18px;
   font-weight:300;
-  padding-left:200px;
-  padding-right:200px;
-
+  padding-left:150px;
+  padding-right:150px;
 }
 
 /* HTML / CSS, REACT */
@@ -125,6 +145,8 @@ code {
 
 
 .htmlandcss-explanation, .react-explanation{
+  padding-left:150px;
+  padding-right:150px;
   font-weight:300;
 }
 /* RESUME */
@@ -212,4 +234,87 @@ code {
 .submitBtn:focus{
   outline:none;
 
+}
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 1024px)
+{
+  body{
+    background:green;
+  }
+  .about{
+    padding-left:50px;
+    padding-right:50px;
+  }
+
+}
+
+@media (max-width: 991px)
+{
+  body{
+    background:yellow;
+  }
+  .fa-phone{
+    font-size:26px;
+    margin-right:0px;
+  }
+}
+
+@media (max-width: 767px)
+{
+  body{
+    background:red;
+  }
+  .nav2{
+    display:block;
+  }
+  .navbar{
+    display:none;
+  }
+  .about{
+    padding-left:25px;
+    padding-right:25px;
+  }
+  .fa-phone{
+    font-size:26px;
+    margin-right:0px;
+  }
+  .htmlandcss-explanation, .react-explanation{
+    padding-left:50px;
+    padding-right:50px;
+    font-weight:300;
+  }
+}
+
+@media (max-width: 575px)
+{
+  body{
+    background:blue;
+  }
+  .header-contact{
+    margin-right:50px;
+  }
+  .nav-link-item2{
+    font-size:20px;
+  }
+  .nav-link-item2 span{
+    margin-right:20px;
+  }
+  .nav-link-item2 span:last-child{
+    margin-right:0px;
+  }
+  .form-fields input{
+    width: 100%;
+  }
+}
+
+@media (max-width: 424px)
+{
+  .htmlandcss-explanation, .react-explanation{
+    padding-left:25px;
+    padding-right:25px;
+    font-weight:300;
+  }
 }

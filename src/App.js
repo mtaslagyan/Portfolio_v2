@@ -11,11 +11,12 @@ import Contact from './Components/Contact/Contact'
 function App() {
   return (
     <div className="App">
-        <Header/>
+        
         <BrowserRouter>
+        <Header/>
           <div className="container">
             <div className="row">
-              <div className="offset-1 col-10">
+              <div className="offset-md-1 offset-0 col-md-10 col-12">
                 <Switch>
                   <Route exact path="/" component={Home}/>
                   <Route path="/htmlAndCss" component={HtmlAndCss}/>
@@ -24,7 +25,7 @@ function App() {
                   <Route path="/contact" component={Contact}/>
                 </Switch>
               </div>
-              <div className="col-1">
+              <div className="col-md-1 col-0">
                 <Navbar/>
               </div>
             </div>

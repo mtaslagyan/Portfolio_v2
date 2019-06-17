@@ -15,19 +15,19 @@ const HtmlAndCss = () => {
                             <div className="col-12">
                                 <h1 className="htmlandcss-title">Html & CSS</h1>
                                 <hr className="title-divider" />
-                                <p className="htmlandcss-explanation">Using custom Html and CSS to create work.</p>
+                                <p className="htmlandcss-explanation">Responsive and accessible sites built with custom Html, CSS, and Bootstrap.</p>
                             </div>
                         </div>
                         <div className="row htmlandcss-content">
-                            <div className="col-4">
-                                <a href="#" target="_blank"><img className="buddyjane-pic" src={BuddyJane} alt="Buddy Jane logo." /></a>
-                                <div className="buddyjane-link mt-3"><a href="#" target="_blank">buddyjane.com</a></div>
+                            <div className="col-12 col-lg-4">
+                                <a href="buddyjane.com" target="_blank"><img className="buddyjane-pic" src={BuddyJane} alt="Buddy Jane logo." /></a>
+                                <div className="buddyjane-link mt-3"><a href="buddyjane.com" target="_blank">buddyjane.com</a></div>
                             </div>
-                            <div className="col-4">
-                                <a href="#" target="_blank"><img className="developmt-pic" src={DevelopMT} alt="Develop MT logo." /></a>
-                                <div className="developmt-link mt-3"><a href="#" target="_blank">developmt.com</a></div>
+                            <div className="col-12 col-lg-4 mt-lg-0 mt-5">
+                                <a href="developmt.com" target="_blank"><img className="developmt-pic" src={DevelopMT} alt="Develop MT logo." /></a>
+                                <div className="developmt-link mt-3"><a href="developmt.com" target="_blank">developmt.com</a></div>
                             </div>
-                            <div className="col-4">
+                            <div className="col-12 col-lg-4 mt-lg-0 my-5">
                                 <a href="#" target="_blank"><img className="csunfac-pic" src={CSUNFac} alt="Csun faculty logo." /></a>
                                 <div className="csunfac-link mt-3"><a href="#" target="_blank">CSUN Faculty | Beta</a></div>
                             </div>
