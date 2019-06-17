@@ -20,16 +20,16 @@ const HtmlAndCss = () => {
                         </div>
                         <div className="row htmlandcss-content">
                             <div className="col-12 col-lg-4">
-                                <a href="buddyjane.com" target="_blank"><img className="buddyjane-pic" src={BuddyJane} alt="Buddy Jane logo." /></a>
-                                <div className="buddyjane-link mt-3"><a href="buddyjane.com" target="_blank">buddyjane.com</a></div>
+                                <a href="https://www.buddyjane.com" target="_blank"><img className="buddyjane-pic" src={BuddyJane} alt="Buddy Jane logo." /></a>
+                                <div className="buddyjane-link mt-3"><a href="https://www.buddyjane.com.com" target="_blank">BuddyJane</a></div>
                             </div>
                             <div className="col-12 col-lg-4 mt-lg-0 mt-5">
-                                <a href="developmt.com" target="_blank"><img className="developmt-pic" src={DevelopMT} alt="Develop MT logo." /></a>
-                                <div className="developmt-link mt-3"><a href="developmt.com" target="_blank">developmt.com</a></div>
+                                <a href="https://www.developmt.com" target="_blank"><img className="developmt-pic" src={DevelopMT} alt="Develop MT logo." /></a>
+                                <div className="developmt-link mt-3"><a href="https://www.developmt.com" target="_blank">DevelopMT</a></div>
                             </div>
                             <div className="col-12 col-lg-4 mt-lg-0 my-5">
-                                <a href="#" target="_blank"><img className="csunfac-pic" src={CSUNFac} alt="Csun faculty logo." /></a>
-                                <div className="csunfac-link mt-3"><a href="#" target="_blank">CSUN Faculty | Beta</a></div>
+                                <a href="https://www.sandbox.csun.edu/faculty/steven.fitzgerald#/" target="_blank"><img className="csunfac-pic" src={CSUNFac} alt="Csun faculty logo." /></a>
+                                <div className="csunfac-link mt-3"><a href="https://www.sandbox.csun.edu/faculty/steven.fitzgerald#/" target="_blank">CSUN Faculty | Beta</a></div>
                             </div>
                         </div>
                     </div>

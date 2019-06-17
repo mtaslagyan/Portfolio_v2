@@ -19,12 +19,12 @@ const Reactjs = () => {
                         </div>
                         <div className="row react-content">
                             <div className="col-12 col-md-6">
-                                <a href="profits.netlify.com" target="_blank"><img className="profits-pic" src={Profits} alt="Profits logo." /></a>
-                                <div className="profits-link mt-3"><a target="_blank" href="profits.netlify.com">profits.netlify.com</a></div>
+                                <a href="https://profits.netlify.com/" target="_blank"><img className="profits-pic" src={Profits} alt="Profits logo." /></a>
+                                <div className="profits-link mt-3"><a target="_blank" href="https://profits.netlify.com/">Profits</a></div>
                             </div>
                             <div className="col-12 col-md-6 mt-md-0 my-5">
-                                <a href="itrainuwin.com" target="_blank"><img className="itrainuwin-pic" src={Itrainuwin} alt="I Train U Win logo." /></a>
-                                <div className="itrainuwin-link mt-3"><a target="_blank" href="itrainuwin.com">itrainuwin.com</a></div>
+                                <a href="https://www.itrainuwin.com" target="_blank"><img className="itrainuwin-pic" src={Itrainuwin} alt="I Train U Win logo." /></a>
+                                <div className="itrainuwin-link mt-3"><a target="_blank" href="https://www.itrainuwin.com">iTrainUwin</a></div>
                             </div>
                         </div>
                     </div>
