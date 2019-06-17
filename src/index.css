@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:rgb(236, 236, 236);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Header */
+
+.header a{
+  color:black;
+}
+
+.fa-envelope{
+  font-size:30px;
+  
+}
+.fa-phone{
+  font-size:26px;
+}
+.fa-envelope:hover, .fa-phone:hover{
+  cursor:pointer;
+  color:#c20f0f;
+}
+
+/* Navbar */
+
+.navbar{
+  margin-top:60px;
+  padding-right:0;
+  font-size:24px;
+  font-weight:200;
+}
+.navbar a{
+  color:black;
+}
+.nav-link-item{
+  float:right;
+  margin-bottom:5px;
+}
+.nav-link-item a:hover, .nav-link-item a:active, .nav-link-item a:visited, .nav-link-item a:focus {
+  text-decoration:none;
+  border-bottom: solid 1px #c20f0f;
+  padding-bottom:5px;
+}
+
+/* Home */
+
+.home{
+  padding-top:120px;
+}
+.hello{
+  font-family: 'Archivo Black';
+  font-size:40px;
+}
+
+.profilePic{
+  border-radius:50%;
+  width:180px;
+  margin-bottom:20px;
+  box-shadow: 0px 30px 20px -25px rgba(0, 0, 0, 0.596);
+}
+
+.about{
+  font-size:18px;
+  font-weight:300;
+  padding-left:200px;
+  padding-right:200px;
+
+}
+
+/* HTML / CSS, REACT */
+
+.title-divider{
+  background:rgb(219, 34, 34);
+  height: 2px;
+  width:50px;
+}
+
+.htmlandcss a, .react a{
+  color:black;
+
+}
+.htmlandcss a:hover, .react a:hover{
+  text-decoration:none;
+  border-bottom: solid 1px #c20f0f;
+  padding-bottom:5px;
+}
+
+.htmlandcss-title, .react-title, .resume-title, .contact-title{
+  margin-top:80px;
+  font-family: 'Archivo Black';
+  font-size:40px;
+}
+
+.htmlandcss-content, .react-content, .resume-content{
+  margin-top:50px;
+
+}
+.buddyjane-pic, .developmt-pic, .csunfac-pic, .profits-pic, .itrainuwin-pic{
+  width:200px;
+  border: solid 2px white;
+  border-radius:50%;
+  box-shadow: 0px 30px 20px -25px rgba(0, 0, 0, 0.596);
+
+}
+.buddyjane-pic:hover, .developmt-pic:hover, .csunfac-pic:hover, .profits-pic:hover, .itrainuwin-pic:hover{
+  border:none;
+  transform: scale(1.1);
+  transition:0.5s;
+}
+
+.buddyjane-link, .developmt-link, .csunfac-link, .profits-link, .itrainuwin-link{
+  font-family: 'Archivo Black';
+  font-size:20px;
+}
+
+
+.htmlandcss-explanation, .react-explanation{
+  font-weight:300;
+}
+/* RESUME */
+
+.resume{
+  margin-top:120px;
+}
+.resume a{
+  color:black
+}
+.fa-download{
+  font-size:60px;
+}
+.resume a:hover{
+  color:rgb(241, 57, 57);
+  cursor:pointer;
+}
+
+/* ANIMATIONS */
+  @keyframes fadeIn{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .htmlandcss-entering,
+  .home-entering,
+  .react-entering,
+  .resume-entering,
+  .contact-entering {
+    animation: fadeIn 2s;
+  }
+
+/* Contact */
+.contact-content{
+  margin-top:30px;
+}
+
+.contact-welcome{
+  font-size:18px;
+  font-weight:300;
+}
+.contact-phoneemail{
+  margin-top:20px;
+  font-size:20px; 
+  font-weight:300;
+}
+
+
+/* form */
+
+.form-fields input{
+  padding:10px 15px;
+  border:solid 2px rgb(253, 214, 214);
+  border-radius:12px;
+  width: 90%;
+  outline:none;
+}
+
+.message{
+  border:none;  border:solid 2px rgb(253, 214, 214);
+  border-radius:12px;
+  resize:none;
+  width: 90%;
+  height: 175px;
+  outline:none;
+  padding:10px 15px;
+}
+.form-response{
+  font-weight:300;
+}
+
+.submitBtn{
+  border-radius:25px;
+  border:none;
+  padding:7px 15px;
+  background:rgb(255, 254, 254);
+  color:rgb(119, 119, 119);
+  font-size:20px;
+  margin-bottom:20px;
+}
+.submitBtn:hover{
+  cursor:pointer;
+  color:rgb(245, 151, 151);
+}
+.submitBtn:focus{
+  outline:none;
+
+}
