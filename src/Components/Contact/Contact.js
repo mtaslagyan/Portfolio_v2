@@ -10,24 +10,33 @@ class Contact extends Component {
         message: null,
     }
 
+
+    encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+    }
+
     handleChange = (e) => {
-        this.setState({
-            [e.target.name]: e.target.value
+    this.setState({
+        [e.target.name]: e.target.value
         })
     }
 
-    handleSubmit = (e) => {
+    handleSubmit = e => {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: this.encode({ "form-name": "message", ...this.state })
         })
             .then(() => alert("Thank you for your submission!"))
-            .catch(error => alert(error));
+            .catch(error => alert("Not successful"));
 
         e.target.reset();
         e.preventDefault();
+        console.log('gets here too');
     }
+
     render() {
         return (
             <Transition timeout={2000} in={true} appear>
@@ -56,17 +65,13 @@ class Contact extends Component {
                                                     <div className="form-fields mb-3">
                                                         <input className="mb-3" placeholder="Name*" required onChange={this.handleChange} type="text" name="name" />
                                                         <br />
-
                                                         <input className="mb-3" placeholder="Email*" required onChange={this.handleChange} type="email" name="email" />
-
                                                         <br />
-
                                                         <input className="" placeholder="Phone" onChange={this.handleChange} type="tel" name="phone" />
                                                     </div>
                                                 </div>
                                                 <div className="col-6">
                                                     <div className="form-fields">
-
                                                         <textarea className="message" placeholder="Message*" required onChange={this.handleChange} type="text" name="message" maxlength="300"></textarea>
                                                         {/* <input className="" placeholder="Message*" required onChange={this.handleChange} type="text" name="message" maxlength="300" /> */}
                                                     </div>
