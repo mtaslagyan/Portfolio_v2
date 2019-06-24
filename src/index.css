@@ -35,6 +35,9 @@ code {
   color:#c20f0f;
 }
 
+.header-content{
+  float:right;
+}
 /* Navbar */
 
 .navbar{
@@ -272,6 +275,7 @@ code {
   } */
   .nav2{
     display:block;
+    margin-top:0px;
   }
   .navbar{
     display:none;
@@ -288,6 +292,14 @@ code {
     padding-left:50px;
     padding-right:50px;
     font-weight:300;
+  }
+  .home{
+    padding-bottom:75px;
+  }
+  .resume{
+    margin-top:0;
+    padding-top:0;
+    padding-bottom:75px;
   }
 }
 
@@ -338,5 +350,27 @@ code {
     padding-left:25px;
     padding-right:25px;
     font-weight:300;
+  }
+  .contact{
+    padding-bottom:75px;
+  }
+}
+
+@media (max-width: 375px)
+{
+  .nav2{
+    display:block;
+    margin-top:0px;
+  }
+  .header-content{
+    float:none;
+    text-align:center;
+  }
+  .header-contact{
+    margin-right:0;
+  }
+  .home{
+    padding-top:75px;
+
   }
 }

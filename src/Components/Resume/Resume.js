@@ -1,6 +1,6 @@
 import React from 'react'
 import { Transition } from 'react-transition-group'
-import Cat from '../../images/cat.jpeg'
+import ResumePDF from '../../Documents/Mari_Taslagyan_Resume.pdf'
 
 
 const Resume = () => {
@@ -14,7 +14,7 @@ const Resume = () => {
                                 <h1 className="react-title">Download my resum&eacute;.</h1>
                                 <hr className="title-divider" />
                                 <div className="resume-content">
-                                    <a href={Cat} download="cat"><i class="fas fa-download"></i></a>
+                                    <a href={ResumePDF} download="Mari Taslagyan's Resume"><i class="fas fa-download"></i></a>
                                 </div>
                             </div>
                         </div>
