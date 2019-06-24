@@ -27,7 +27,10 @@ code {
   font-size:26px;
   margin-right:15px;
 }
-.fa-envelope:hover, .fa-phone:hover{
+.fa-github{
+  font-size:30px;
+}
+.fa-envelope:hover, .fa-phone:hover, .fa-github:hover{
   cursor:pointer;
   color:#c20f0f;
 }
@@ -241,9 +244,9 @@ code {
 /* MEDIA QUERY */
 @media (max-width: 1024px)
 {
-  body{
+  /* body{
     background:green;
-  }
+  } */
   .about{
     padding-left:50px;
     padding-right:50px;
@@ -253,9 +256,9 @@ code {
 
 @media (max-width: 991px)
 {
-  body{
+  /* body{
     background:yellow;
-  }
+  } */
   .fa-phone{
     font-size:26px;
     margin-right:0px;
@@ -264,9 +267,9 @@ code {
 
 @media (max-width: 767px)
 {
-  body{
+  /* body{
     background:red;
-  }
+  } */
   .nav2{
     display:block;
   }
@@ -290,14 +293,17 @@ code {
 
 @media (max-width: 575px)
 {
-  body{
+  /* body{
     background:blue;
-  }
+  } */
   .header-contact{
     margin-right:50px;
   }
   .fa-envelope, .fa-phone{
     font-size:22px;
+  }
+  .fa-github{
+    font-size:24px;
   }
   .nav-link-item2{
     font-size:18px;
@@ -320,9 +326,9 @@ code {
 
 @media (max-width: 424px)
 {
-  body{
+  /* body{
     background:purple;
-  }
+  } */
 
   .nav-link-item2 span{
     display:block;

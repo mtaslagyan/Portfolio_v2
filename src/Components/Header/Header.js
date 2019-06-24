@@ -10,7 +10,8 @@ const Header = () => {
                     <div className="col-12 mr-0 pr-0">
                         <div className="float-right">
                             <a href="mailto:mtaslagyan@yahoo.com"><i class="far fa-envelope"></i></a>
-                            <a href="tel:13238219808"><i class="fas ml-4 fa-phone"></i></a>
+                            <a href="tel:13238219808"><i class="fas mx-4 fa-phone"></i></a>
+                            <a href="https://github.com/mtaslagyan"><i class="fab fa-github"></i></a>
                         </div> 
                     </div>
                 </div>
