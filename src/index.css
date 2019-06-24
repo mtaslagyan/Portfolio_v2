@@ -210,6 +210,9 @@ code {
   width: 90%;
   outline:none;
 }
+.form-fields input:focus, .form-fields textarea:focus{
+  border:solid 2px rgb(255, 172, 172);
+}
 
 .message{
   border:none;  border:solid 2px rgb(253, 214, 214);
@@ -353,6 +356,9 @@ code {
   }
   .contact{
     padding-bottom:75px;
+  }
+  .contact textarea, .contact input{
+    font-size:14px;
   }
 }
 

@@ -72,7 +72,7 @@ class Contact extends Component {
                                                 </div>
                                                 <div className="col-6">
                                                     <div className="form-fields">
-                                                        <textarea className="message" placeholder="Message*" required onChange={this.handleChange} type="text" name="message" maxlength="300"></textarea>
+                                                        <textarea className="message" placeholder="Message*" required onChange={this.handleChange} type="text" name="message" maxlength="300" wrap="hard"></textarea>
                                                         {/* <input className="" placeholder="Message*" required onChange={this.handleChange} type="text" name="message" maxlength="300" /> */}
                                                     </div>
                                                 </div>
