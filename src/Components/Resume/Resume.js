@@ -14,7 +14,7 @@ const Resume = () => {
                                 <h1 className="react-title">Download my resum&eacute;.</h1>
                                 <hr className="title-divider" />
                                 <div className="resume-content">
-                                    <a href={ResumePDF} download="Mari Taslagyan's Resume"><i class="fas fa-download"></i></a>
+                                    <a target="_blank" href={ResumePDF} download="Mari Taslagyan's Resume"><i class="fas fa-download"></i></a>
                                 </div>
                             </div>
                         </div>
