@@ -11,7 +11,7 @@ const Header = () => {
                         <div className="header-content">
                             <a href="mailto:mtaslagyan@yahoo.com"><i class="far fa-envelope"></i></a>
                             <a href="tel:13238219808"><i class="fas mx-4 fa-phone"></i></a>
-                            <a href="https://github.com/mtaslagyan"><i class="fab fa-github"></i></a>
+                            <a target="_blank" href="https://github.com/mtaslagyan"><i class="fab fa-github"></i></a>
                         </div> 
                     </div>
                 </div>

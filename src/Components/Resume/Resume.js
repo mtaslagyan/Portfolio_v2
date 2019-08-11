@@ -1,6 +1,6 @@
 import React from 'react'
 import { Transition } from 'react-transition-group'
-import ResumePDF from '../../Documents/Mari_Taslagyan_Resume.pdf'
+import ResumePDF from '../../Documents/Taslagyan_Mari_Resume.pdf'
 
 
 const Resume = () => {
