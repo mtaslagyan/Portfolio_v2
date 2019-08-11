@@ -1,18 +1,22 @@
 {
-  "main.css": "/static/css/main.7b480d3f.chunk.css",
-  "main.js": "/static/js/main.ed631d8f.chunk.js",
-  "main.js.map": "/static/js/main.ed631d8f.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.eef359c3.chunk.js": "/static/js/2.eef359c3.chunk.js",
-  "static/js/2.eef359c3.chunk.js.map": "/static/js/2.eef359c3.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.5a46a183e2ceac899c97e81eb7c8b9bc.js": "/precache-manifest.5a46a183e2ceac899c97e81eb7c8b9bc.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.7b480d3f.chunk.css.map": "/static/css/main.7b480d3f.chunk.css.map",
-  "static/media/addClient.png": "/static/media/addClient.4cb8c8a5.png",
-  "static/media/addsession.png": "/static/media/addsession.d31bc5a3.png",
-  "static/media/analyze.png": "/static/media/analyze.7ec2e445.png",
-  "static/media/index.css": "/static/media/bannerImg2.bac09755.jpg",
-  "static/media/bannerImg3.jpg": "/static/media/bannerImg3.cfd7b160.jpg"
+  "files": {
+    "main.css": "/static/css/main.bd09c020.chunk.css",
+    "main.js": "/static/js/main.710c5904.chunk.js",
+    "main.js.map": "/static/js/main.710c5904.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.6b097899.chunk.js": "/static/js/2.6b097899.chunk.js",
+    "static/js/2.6b097899.chunk.js.map": "/static/js/2.6b097899.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.77cd12b3e7d0f6f3e47776c689dceb8a.js": "/precache-manifest.77cd12b3e7d0f6f3e47776c689dceb8a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bd09c020.chunk.css.map": "/static/css/main.bd09c020.chunk.css.map",
+    "static/media/Taslagyan_Mari_Resume.pdf": "/static/media/Taslagyan_Mari_Resume.964becb7.pdf",
+    "static/media/buddyjane.png": "/static/media/buddyjane.12abea94.png",
+    "static/media/csunfac.png": "/static/media/csunfac.43c261b4.png",
+    "static/media/developmt.png": "/static/media/developmt.aa629b09.png",
+    "static/media/itrainuwin.png": "/static/media/itrainuwin.5d14af8c.png",
+    "static/media/mari_profile.png": "/static/media/mari_profile.addbc104.png",
+    "static/media/profits.png": "/static/media/profits.b8bd2fe1.png"
+  }
 }
