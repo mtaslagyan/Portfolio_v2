@@ -10,7 +10,7 @@ const Home = () => {
                 <div className={`home home-${status} text-center`}>
                     <img className="profilePic" src={ProfileImg} alt="Mari Taslagyan holding an umbrella." />
                     <h1 className="hello">HELLO.</h1>
-                    <p className="about">My name is Mari Taslagyan and I am a front-end web developer. With extensive knowledge in art and development, I strive to create work that is both efficient and innovative.</p>
+                    <p className="about">My name is Mari Taslagyan and I am a front-end web developer and UX Designer. With extensive knowledge in art and development, I strive to create work that is both efficient and innovative.</p>
                 </div>
             )}
         </Transition>
