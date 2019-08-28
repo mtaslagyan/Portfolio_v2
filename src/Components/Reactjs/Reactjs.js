@@ -1,6 +1,6 @@
 import React from 'react'
 import Profits from '../../images/profits.png'
-import Itrainuwin from '../../images/itrainuwin.png'
+import Itrainuwin from '../../images/itrainuwin2.png'
 import { Transition } from 'react-transition-group'
 
 
