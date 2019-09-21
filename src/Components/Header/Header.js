@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header mt-3">
             <div className="container header-contact">
                 <div className="row">
-                    <div className="col-12 mr-0 pr-0">
+                    <div className="col-12 mx-0 px-0">
                         <div className="header-content">
                             <a href="mailto:mtaslagyan@yahoo.com"><i class="far fa-envelope"></i></a>
                             <a href="tel:13238219808"><i class="fas mx-4 fa-phone"></i></a>
