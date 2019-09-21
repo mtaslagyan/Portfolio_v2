@@ -370,7 +370,11 @@ code {
     background:purple;
   } */
   .profilePic{
-    width:600px;
+    margin-top: -161px;
+    width:800px;
+  }
+  .home-intro-wrapper {
+    margin-top: 190px;
   }
   .nav-link-item2 span{
     display:block;
@@ -404,6 +408,8 @@ code {
   }
   .home{
     padding-top:75px;
-
+  }
+  .home-intro-wrapper {
+    margin-top: 190px;
   }
 }
