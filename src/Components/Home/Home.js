@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileImg from '../../images/mari_colors.png'
+import ProfileImg from '../../images/mari_profile.png'
 import { Transition } from 'react-transition-group'
 
 
