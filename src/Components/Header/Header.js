@@ -18,7 +18,7 @@ const Header = () => {
             </div>
             <div className="container nav2 text-center">
                 <div className="row">
-                    <div className="col-12">
+                    <div className="col-12 px-0 mx-0">
                         <hr className="nav2-divider"/>
                         <div className="nav-link-item2">
                             <span>
