@@ -56,7 +56,6 @@ code {
   color:black;
 }
 .nav-link-item{
-  float:right;
   margin-bottom:5px;
 }
 .nav-link-item a:hover, .nav-link-item a:active, .nav-link-item a:visited, .nav-link-item a:focus {
